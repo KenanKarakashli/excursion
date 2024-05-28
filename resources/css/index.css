@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+h2 {
+    
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+h4 {
+    font-weight:  300;
+    font-size: 21px;
+    color: gray;
+    margin: 50px 0 20px 0;
+}
+
+h6 {
+    color: aquamarine;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: underline;
+    margin: 50px 0;
+}
+
+.img_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container img {
+    width: 50%;
+}
+
+.second_img {
+    width: 5% !important;
+    margin-top: 20px;
+}
+
+.copyright {
+    padding: 20px;
+    text-align: end;
+    color: gray;
+}
